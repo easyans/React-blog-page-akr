@@ -1,0 +1,274 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+@keyframes slit-in-vertical {
+  0% {
+    transform: translateZ(-800px) rotateY(90deg);
+    opacity: 0;
+  }
+  54% {
+    transform: translateZ(-160px) rotateY(87deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateZ(0) rotateY(0);
+  }
+}
+@keyframes bounce-top {
+  0% {
+    transform: translateY(-45px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    transform: translateY(-24px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translateY(-12px);
+    animation-timing-function: ease-in;
+  }
+  82% {
+    transform: translateY(-6px);
+    animation-timing-function: ease-in;
+  }
+  93% {
+    transform: translateY(-4px);
+    animation-timing-function: ease-in;
+  }
+  25%,
+  55%,
+  75%,
+  87% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  to {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+}
+.contactMe {
+  position: relative;
+  font-weight: 500;
+}
+.contactMeWrapper {
+  position: absolute;
+  top: 40px;
+  left: 511px;
+  height: 84px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+  color: var(--color-blue-100);
+}
+.reachOutToMe {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.discussAProjectOrJustWant {
+  margin: 0;
+  font-size: 35px;
+  color: var(--color-gray-200);
+}
+.reachOutToContainer {
+  position: absolute;
+  top: 204px;
+  left: 30px;
+  font-weight: 600;
+  font-size: 40px;
+}
+.studentAtSrm {
+  position: absolute;
+  top: 379px;
+  left: 31px;
+  font-weight: 500;
+}
+.openForOpportunities,
+.visakhapatnamIndia {
+  position: absolute;
+  top: 482px;
+  left: 69px;
+  font-weight: 500;
+}
+.openForOpportunities {
+  top: 552px;
+}
+.easyans {
+  position: relative;
+  font-weight: 600;
+}
+.easyansWrapper {
+  position: absolute;
+  top: 900px;
+  left: 619px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactmeChild,
+.oamn63341Icon {
+  position: absolute;
+  top: 372px;
+  left: 960px;
+  width: 352.33px;
+  height: 352.33px;
+}
+.oamn63341Icon {
+  top: 382px;
+  left: 971px;
+  border-radius: 175px;
+  width: 330px;
+  height: 332px;
+  object-fit: cover;
+}
+.mapPinIcon,
+.vectorIcon {
+  position: absolute;
+  top: 482px;
+  left: 33px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.vectorIcon {
+  height: 1.51%;
+  width: 0.64%;
+  top: 4.22%;
+  right: 97.34%;
+  bottom: 94.26%;
+  left: 2.01%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.goBack {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 37px;
+  left: 51px;
+  font-size: var(--font-size-2xs);
+  font-weight: 700;
+  font-family: var(--font-chakra-petch);
+  color: var(--color-blue-100);
+  text-align: left;
+  display: inline-block;
+}
+.goBack:hover {
+  color: var(--color-green-100);
+  animation: 0s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.github21 {
+  text-decoration: none;
+  border-radius: var(--br-lg);
+  background-image: url(../../public/github2-11@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.github21:hover {
+  animation: 0s ease 0s infinite normal none slit-in-vertical;
+  opacity: 1;
+}
+.facebook1:hover,
+.github21:active,
+.linkedin1:hover,
+.pp840x830Pad1000x1000f8f8f:hover,
+.stackOverflow1:hover {
+  animation: 0s ease 0s infinite normal none bounce-top;
+  opacity: 1;
+}
+.facebook1,
+.github21,
+.linkedin1 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.linkedin1 {
+  text-decoration: none;
+  border-radius: var(--br-xl);
+  background-image: url(../../public/linkedin-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.facebook1 {
+  border-radius: var(--br-md);
+  background-image: url(../../public/facebook-1@3x.png);
+}
+.facebook1,
+.pp840x830Pad1000x1000f8f8f,
+.stackOverflow1 {
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.stackOverflow1 {
+  position: relative;
+  border-radius: var(--br-md);
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  background-image: url(../../public/stackoverflow-1@3x.png);
+}
+.pp840x830Pad1000x1000f8f8f {
+  border-radius: var(--br-2xl);
+  background-image: url(../../public/pp840x830pad1000x1000f8f8f8-1@3x.png);
+}
+.gmail1,
+.pp840x830Pad1000x1000f8f8f {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+}
+.github21Parent {
+  position: absolute;
+  top: 650px;
+  left: 48px;
+  width: 450px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.madeWithLove {
+  position: absolute;
+  top: 851px;
+  left: 454px;
+  font-weight: 600;
+}
+.contactme {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-chakra-petch);
+}

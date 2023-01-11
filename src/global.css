@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-chakra-petch: "Chakra Petch";
+
+  /* font sizes */
+  --font-size-5xs: 15px;
+  --font-size-4xs: 18px;
+  --font-size-3xs: 19px;
+  --font-size-2xs: 20px;
+  --font-size-xs: 24px;
+  --font-size-sm: 25px;
+  --font-size-base: 30px;
+  --font-size-lg: 55px;
+  --font-size-xl: 56px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-blue-100: #5c17ef;
+  --color-blue-200: rgba(92, 23, 239, 0.8);
+  --color-green-100: #8cfb6e;
+  --color-green-200: #76ec55;
+  --color-green-300: #1fee40;
+  --color-green-400: rgba(118, 236, 85, 0.8);
+  --color-black: #000;
+  --color-gray-100: #d0d0d0;
+  --color-gray-200: #585858;
+  --color-gray-300: #1e1e1e;
+  --color-gray-400: rgba(0, 0, 0, 0.85);
+  --color-violet: #806eea;
+  --color-indigo: #8066ea;
+
+  /* Gaps */
+  --gap-sm: 3px;
+  --gap-md: 12px;
+  --gap-lg: 35px;
+
+  /* Paddings */
+  --padding-sm: 5px;
+  --padding-md: 10px;
+  --padding-lg: 28px;
+
+  /* border radiuses */
+  --br-3xs: 2px;
+  --br-2xs: 8px;
+  --br-xs: 10px;
+  --br-sm: 15px;
+  --br-md: 256px;
+  --br-lg: 368px;
+  --br-xl: 400px;
+  --br-2xl: 500px;
+}

@@ -1,0 +1,254 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+.skillsChild {
+  position: absolute;
+  top: 394px;
+  left: 787px;
+  width: 298px;
+  height: 298px;
+  mix-blend-mode: normal;
+}
+.skillsItem {
+  position: absolute;
+  top: 101px;
+  left: 0;
+  width: 412px;
+  height: 412px;
+}
+.ellipseIcon,
+.skillsInner {
+  position: absolute;
+  top: 73px;
+  left: 1042px;
+  width: 398px;
+  height: 398px;
+}
+.ellipseIcon {
+  top: 353.49px;
+  left: 237.49px;
+  width: 398.11px;
+  height: 398.11px;
+}
+.working1Icon {
+  position: relative;
+  width: 586px;
+  height: 387px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.working1Wrapper {
+  position: absolute;
+  top: 124px;
+  left: 30px;
+  width: 586px;
+  height: 387px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mySkills {
+  position: absolute;
+  top: 124px;
+  left: 688px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 236px;
+}
+.mysql {
+  position: relative;
+  font-weight: 500;
+}
+.mysqlParent {
+  position: absolute;
+  top: 465px;
+  left: 948px;
+  width: 168px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  font-size: var(--font-size-5xs);
+  color: var(--color-gray-200);
+}
+.html1Icon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.html1Parent {
+  position: absolute;
+  top: 301px;
+  left: 770px;
+  width: 524px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 54px;
+}
+.frameDiv,
+.html1Parent,
+.htmlParent,
+.mysql1Parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.htmlParent {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 59px;
+}
+.frameDiv,
+.mysql1Parent {
+  position: absolute;
+  align-items: center;
+}
+.frameDiv {
+  top: 361px;
+  left: 777px;
+  width: 511px;
+  flex-direction: column;
+  font-size: var(--font-size-5xs);
+  color: var(--color-gray-200);
+}
+.mysql1Parent {
+  top: 409px;
+  left: 948px;
+  width: 163px;
+  flex-direction: row;
+  gap: 45px;
+}
+.emojiIcon {
+  position: absolute;
+  height: 3.52%;
+  width: 2.34%;
+  top: 55.71%;
+  right: 53.49%;
+  bottom: 40.77%;
+  left: 44.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.iDevelopHighly {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.webAndMobile {
+  margin: 0;
+}
+.iDevelopHighlyContainer {
+  position: absolute;
+  top: 553px;
+  left: 676px;
+  font-weight: 500;
+  display: inline-block;
+  width: 734px;
+}
+.iDevelopSockets,
+.vectorIcon {
+  position: relative;
+  flex-shrink: 0;
+}
+.vectorIcon {
+  width: 30px;
+  height: 36px;
+}
+.iDevelopSockets {
+  font-weight: 500;
+  display: inline-block;
+  width: 453px;
+}
+.vectorParent {
+  position: absolute;
+  top: 660px;
+  left: 635px;
+  width: 489px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.emojiIcon1 {
+  position: absolute;
+  height: 3.52%;
+  width: 2.34%;
+  top: 73.14%;
+  right: 53.49%;
+  bottom: 23.34%;
+  left: 44.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.crazyFrontendDeveloperContainer,
+.iAlsoPerformContainer {
+  position: absolute;
+  top: 731px;
+  left: 676px;
+  font-weight: 500;
+  display: inline-block;
+  width: 734px;
+}
+.crazyFrontendDeveloperContainer {
+  top: 208px;
+  left: 688px;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-gray-200);
+  width: 722px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 1.51%;
+  width: 0.64%;
+  top: 5.2%;
+  right: 96.69%;
+  bottom: 93.29%;
+  left: 2.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.goBack,
+.skills {
+  text-align: left;
+  font-family: var(--font-chakra-petch);
+}
+.goBack {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 48px;
+  left: 53px;
+  font-size: var(--font-size-2xs);
+  font-weight: 700;
+  color: var(--color-blue-100);
+  display: inline-block;
+}
+.goBack:hover {
+  color: var(--color-green-100);
+  animation: 0s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.skills {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}

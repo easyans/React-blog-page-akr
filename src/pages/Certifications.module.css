@@ -1,0 +1,242 @@
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
+.certifications1 {
+  position: relative;
+  font-weight: 500;
+}
+.certificationsWrapper {
+  position: absolute;
+  top: 40px;
+  left: 484px;
+  height: 84px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-xl);
+  color: var(--color-blue-100);
+}
+.certificationsChild,
+.certificationsItem {
+  position: absolute;
+  top: 204px;
+  left: 30px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: -4px -4px 8px rgba(231, 231, 231, 0.5),
+    4px 4px 8px rgba(108, 108, 108, 0.2);
+  width: 407px;
+  height: 616px;
+}
+.certificationsItem {
+  left: 517px;
+}
+.awsCloudTechnical {
+  position: absolute;
+  top: 493px;
+  left: 539px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-black);
+}
+.certificationsInner {
+  position: absolute;
+  top: 204px;
+  left: 1004px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-white);
+  box-shadow: -4px -4px 8px rgba(231, 231, 231, 0.5),
+    4px 4px 8px rgba(108, 108, 108, 0.2);
+  width: 407px;
+  height: 616px;
+}
+.webDevelopmentBootcamp {
+  position: absolute;
+  top: 493px;
+  left: 1014px;
+  font-size: 24.5px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.moreCertifications {
+  position: relative;
+  font-weight: 600;
+}
+.moreCertificationsWrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 900px;
+  left: 558px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-violet);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-lg);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-base);
+  color: inherit;
+}
+.moreCertificationsWrapper:hover {
+  background-color: var(--color-green-100);
+}
+.ibm21Icon {
+  position: absolute;
+  top: 273px;
+  left: 102px;
+  border-radius: var(--br-2xs);
+  width: 271px;
+  height: 180px;
+  object-fit: cover;
+}
+.ibmBlockchainEssentials {
+  position: absolute;
+  top: 493px;
+  left: 81px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-black);
+}
+.completedCertification {
+  margin-block-start: 0;
+  margin-block-end: 5px;
+}
+.fromIbmFor {
+  margin: 0;
+}
+.completedCertificationFromContainer,
+.courseCompletionCertificateContainer,
+.courseraCertifiesSuccessfulContainer {
+  position: absolute;
+  top: 557px;
+  left: 37px;
+  font-weight: 500;
+  color: var(--color-gray-200);
+  text-align: center;
+}
+.courseCompletionCertificateContainer,
+.courseraCertifiesSuccessfulContainer {
+  left: 555px;
+}
+.courseCompletionCertificateContainer {
+  left: 1018px;
+}
+.viewCertificateContainer,
+.viewCertificateFrame,
+.viewCertificateWrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 694px;
+  left: 132px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-green-300);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-lg);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-2xs);
+  color: inherit;
+}
+.viewCertificateWrapper:hover {
+  background-color: var(--color-violet);
+}
+.viewCertificateContainer,
+.viewCertificateFrame {
+  left: 619px;
+}
+.viewCertificateContainer:hover {
+  background-color: var(--color-indigo);
+}
+.viewCertificateFrame {
+  left: 1106px;
+}
+.goBack:hover,
+.viewCertificateContainer:hover,
+.viewCertificateFrame:hover {
+  animation: 0s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+.viewCertificateFrame:hover {
+  background-color: var(--color-violet);
+}
+.awsss1Icon,
+.udemy1Icon {
+  position: absolute;
+  top: 289px;
+  left: 608px;
+  width: 234px;
+  height: 149px;
+  object-fit: cover;
+}
+.udemy1Icon {
+  top: 273px;
+  left: 1048px;
+  border-radius: var(--br-2xs);
+  width: 328.38px;
+  height: 180px;
+}
+.div {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.wrapper {
+  position: absolute;
+  top: 51px;
+  left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  position: absolute;
+  height: 1.51%;
+  width: 0.64%;
+  top: 4.52%;
+  right: 97.34%;
+  bottom: 93.97%;
+  left: 2.01%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.certifications,
+.goBack {
+  text-align: left;
+  font-family: var(--font-chakra-petch);
+}
+.goBack {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 40px;
+  left: 51px;
+  font-size: var(--font-size-2xs);
+  font-weight: 700;
+  color: var(--color-blue-100);
+  display: inline-block;
+}
+.goBack:hover {
+  color: var(--color-green-100);
+}
+.certifications {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
